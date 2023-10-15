@@ -1,0 +1,61 @@
+h1{
+  color:lightskyblue; 
+  font-size: 300%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label{
+  color:#bf7cfe;
+  font-size: 200%;
+  font-family:fantasy;
+  }
+
+button{
+  color:#fe9af1;
+  font-size:150%;
+  background-color: #ffe5fe;
+  border-color: #fea8ff;
+  font-family:cursive
+}
+
+.errormessage{
+  display:none;
+  color:red;
+  font-size: 100%;
+  position: relative;
+  bottom: 70px;
+}
+
+h2 {
+  color:lightskyblue;
+  font-size: 200%;
+}
+
+ul{
+  color:#bf7cfe;
+  font-size: 120%;
+}
+
+.divthing{
+  visibility: hidden;
+  position: absolute;
+}
+
+.box {
+  background-color: #fde7fc;
+  width: 300px;
+  min-height: 100px;
+  border: 2px solid #fea8ff;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  visibility: hidden;
+  overflow-y: auto;
+}
+
+h3{
+  color:#bf7cfe;
+}
+
+p{
+  color:#bf7cfe;
+}

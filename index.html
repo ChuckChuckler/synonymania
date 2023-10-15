@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-color:aliceblue;">
+  <h1>Synonym Finder</h1>
+  <label for="word"> Word :</label>
+  <input type="text" id="word" placeholder="Enter a word here..."><br><br>
+  <button onClick="myFunction()"> Search </button>
+  <div class="box" id="box">
+  </div>  
+  <h3 class="errormessage" id="errormessage">No word entered!</h3>
+  <div class="divthing" id="divthing">
+    <h2> Most Common: </h2>
+    <ul id="top3">
+    </ul>
+    <h2> Others: </h2>
+    <ul id="restofsynonyms">
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
